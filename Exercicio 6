@@ -1,0 +1,14 @@
+import Java.util.Scanner;
+public class App{
+    public static void main(String[] args) throws Exception{
+    Double Rcirculo, Acirculo;
+    //pedir raio
+    Scanner S = new Scanner(System.in);
+    System.out.println("Digite o raio");
+    Rcirculo = S.nextDouble();
+
+    Acirculo = Math.PI*(Rcirculo*Rcirculo);
+
+    System.out.print("A área do círculo é igual a:" +Acirculo);
+    }
+}
